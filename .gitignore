@@ -20,4 +20,5 @@ doc/
 .DS_Store
 .idea
 
+#.DS_Store are mac-related files to ignore
 #more items not to include
