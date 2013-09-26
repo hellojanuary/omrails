@@ -9,6 +9,7 @@ gem 'jquery-rails'
 
 group :production do
 	gem 'pg'
+	gem 'rails_12factor'
 end
 group :development, :test do
 	gem	'sqlite3'
@@ -22,7 +23,6 @@ group :assets do
     gem 'coffee-rails', '~> 3.2.1'
 	gem 'uglifier', '>= 1.0.3'
     gem 'bootstrap-sass', '~> 2.3.2.1'
-    gem 'rails_12factor', group: :production
     gem 'jbuilder', '~> 1.2'
 end
 group :doc do
