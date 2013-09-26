@@ -10,13 +10,17 @@
       </a>
  
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">VIN&JESS</a>
+      <%= link_to "VIN&JESS", root_path,class:"brand" %>
  
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
           <ul class="nav">
             	<li><%= link_to "Home",root_path %></li>
-            	<li><%= link_to "About", about_path %></li>
+            	<li><%= link_to "About Us", about_path %></li>
+              <li><%= link_to "RSVP", "#" %></li>
+              <li><%= link_to "The Events", "#" %></li>
+              <li><%= link_to "Accomodations", "#" %></li>
+              <li><%= link_to "Registry", "#" %></li>
   		    </ul>
           <ul class="nav pull-right">
               <li><%= link_to "Login","#" %></li>
